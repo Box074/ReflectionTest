@@ -1,0 +1,61 @@
+{
+    "modName": "ReflectionTest",
+    "modVersion": "0.0.0.0",
+    "codeDir": "./scripts",
+    "libraryDir": "./Library",
+    "csCompileInfo": true,
+    "enableNullableCheck": true,
+    "resources": {},
+    "reference": [],
+    "dependencies": [
+        {
+            "name": "https://github.com/PrashantMohta/Satchel/releases/download/v0.8.1/Satchel.dll",
+            "url": "https://github.com/PrashantMohta/Satchel/releases/download/v0.8.1/Satchel.dll"
+        },
+        {
+            "name": "Modding API",
+            "url": "https://github.com/hk-modding/api/releases/latest/download/ModdingApiWin.zip",
+            "ignoreFiles": [
+                "MMHOOK_PlayMaker.dll",
+                "Mono.Cecil.dll",
+                "MonoMod.RuntimeDetour.dll",
+                "MonoMod.Utils.dll"
+            ]
+        },
+        {
+            "name": "Vanilla",
+            "url": "https://files.catbox.moe/i4sdl6.zip",
+            "ignoreFiles": [
+                "Assembly-CSharp.dll",
+                "mscorlib.dll",
+                "Newtonsoft.Json.dll"
+            ]
+        },
+        {
+            "name": "HKTool",
+            "url": "https://github.com/HKLab/HollowKnightMod.Tool/releases/latest/download/Output.zip"
+        },
+        {
+            "name": "https://github.com/fifty-six/HollowKnight.Vasi/releases/download/v2/Vasi.zip",
+            "url": "https://github.com/fifty-six/HollowKnight.Vasi/releases/download/v2/Vasi.zip"
+        }
+    ],
+    "hktool": {
+        "modifyIL": true,
+        "referenceLib": true
+    },
+    "csproj": {
+        "itemGroup": {
+            "name": "ItemGroup",
+            "content": [],
+            "attr": {}
+        },
+        "propertyGroup": {
+            "name": "PropertyGroup",
+            "content": [],
+            "attr": {}
+        }
+    },
+    "bindingLogger": [],
+    "$schema": "https://github.com/HKLab/hkmod-utils/raw/master/schemca/modProject.json"
+}
